@@ -15,15 +15,14 @@ const Stack = createNativeStackNavigator();
 export default function App() {
   return (
     <View>
-      <Home/>
-      <About/>
     <NavigationContainer>
       <Stack.Navigator>
         <Stack.Screen name="Home" component={Home} />
-        <Stack.Screen name="Sobre" component={Sobre} />
+        <Stack.Screen name="About" component={About} />
       </Stack.Navigator>
     </NavigationContainer>
 
     </View>
   );
 }
+
