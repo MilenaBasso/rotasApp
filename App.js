@@ -3,7 +3,6 @@ import { View } from "react-native";
 import Home from "./src/Pages/Home";
 import About from "./src/Pages/About";
 
-
 //IMPORT STACK NAVIGATION
 import { NavigationContainer} from "@react-navigation/native";
 import { createNativeStackNavigator } from "@react-navigation/native-stack";
@@ -24,4 +23,3 @@ export default function App() {
     </View>
   );
 }
-
