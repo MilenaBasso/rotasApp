@@ -21,7 +21,6 @@ export default function App() {
         <Stack.Screen name="About" component={About} />
       </Stack.Navigator>
     </NavigationContainer>
-
     </View>
   );
 }
