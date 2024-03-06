@@ -9,8 +9,16 @@ export const styles = StyleSheet.create({
   },
 
   logintext: {
-    color: 'black',
+    color: "black",
     fontSize: '30',
+  },
+
+  inputname: {
+    backgroundColor: "white",
+    borderColor: "black",
+    borderWidth: 2,
+    width: 230,
+    fontSize: 20,
   },
 
 });
