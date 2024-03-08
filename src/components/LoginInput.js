@@ -4,10 +4,10 @@ import { styles } from "../styles/StyleSheet";
 export default function InputLogin() {
   return (
     <View style={styles.input}>
-      <TextInput placeholder="Digite Seu E-mail" style={styles.email} />
+      <TextInput placeholder="Digite Seu E-mail" style={styles.inputname} />
       <TextInput
         placeholder="Digite Sua Senha"
-        style={styles.senha}
+        style={styles.inputname}
         secureTextEntry={true}
       />
     </View>

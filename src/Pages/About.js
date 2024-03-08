@@ -12,7 +12,7 @@ export default function About() {
   };
 
   return (
-    <View>
+    <View style={styles.container}>
       <Image source={imagem} resizeMode="cover" style={styles.about}/>
         <Text>Exemplo de página About</Text>
       <Rotas />

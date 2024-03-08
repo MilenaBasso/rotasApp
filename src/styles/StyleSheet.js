@@ -15,10 +15,15 @@ export const styles = StyleSheet.create({
 
   inputname: {
     backgroundColor: "white",
-    borderColor: "black",
+    borderColor: "red",
     borderWidth: 2,
     width: 230,
     fontSize: 20,
+  },
+
+  imagemlogin: {
+    width: 70,
+    height: 70,
   },
 });
 
@@ -31,8 +36,8 @@ export const Styles = StyleSheet.create({
 
   // Editar a Fundo
   fundo: {
-    height: 300,
-    width: 300,
+    height: "100%",
+    width: "100%",
     resizeMode: "cover",
     source: "imagem",
   },
@@ -68,7 +73,7 @@ export const Styles = StyleSheet.create({
   // Editar o Text
   text: {
     textAlign: "center",
-    color: "white",
+    color: "purple",
     fontSize: 30,
     borderStyle: "solid",
   },
@@ -76,7 +81,7 @@ export const Styles = StyleSheet.create({
   // Editar o Input E-mail
   email: {
     textAlign: "center",
-    color: "white",
+    color: "purple",
     fontSize: 30,
     borderStyle: "solid",
   },
@@ -84,7 +89,7 @@ export const Styles = StyleSheet.create({
   // Editar o Input Senha
   senha: {
     textAlign: "center",
-    color: "white",
+    color: "purple",
     fontSize: 30,
     borderStyle: "solid",
   },

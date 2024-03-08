@@ -9,13 +9,12 @@ import TextLogin from "../components/LoginText";
 
 export default function Login() {
   return (
-    <View style={{ flex: 1 }}>
+    <View style={styles.container}>
       <ImagBack>
-      <Imagem />
-      <InputLogin />
-      <ButtonLogin />
-      <TextLogin/>
-
+        <Imagem />
+        <InputLogin />
+        <ButtonLogin />
+        <TextLogin />
       </ImagBack>
       <Rotas />
     </View>
