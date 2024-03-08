@@ -5,7 +5,7 @@ import Rotas from "../components/Rotas";
 
 export default function ComponentHome() {
   const Fundo = {
-    //no image yet//
+    uri: "https://www.creativefabrica.com/wp-content/uploads/2022/03/04/simple-blue-flower-seamless-pattern-Graphics-26444349-1-580x387.jpg",
   };
 
   const navigation = useNavigation();
@@ -16,7 +16,7 @@ export default function ComponentHome() {
         <Text
           style={{
             fontWeight: "bold",
-            color: "white",
+            color: "red",
             fontSize: 65,
             textAlign: "center",
           }}

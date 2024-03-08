@@ -3,9 +3,27 @@ import { StyleSheet } from "react-native";
 export const styles = StyleSheet.create({
   container: {
     flex: 1,
-    backgroundColor: "#fff",
+    backgroundColor: "black",
     alignItems: "center",
     justifyContent: "center",
+  },
+
+  home: {
+    flex: 1,
+    width: "100%",
+    height: "100%",
+    resizeMode: "cover",
+    justifyContent: "center",
+    alignItems: "center",
+    padding: 500,
+  },
+
+  about: {
+    height: 300,
+    width: 300,
+    borderRadius: 300,
+    resizeMode: "cover",
+    source: "imagem",
   },
 
   logintext: {
@@ -13,6 +31,7 @@ export const styles = StyleSheet.create({
     fontSize: "30",
   },
 
+  //editar input em contacts
   inputname: {
     backgroundColor: "pink",
     borderColor: "red",
@@ -21,6 +40,7 @@ export const styles = StyleSheet.create({
     fontSize: 20,
   },
 
+  //
   imagemlogin: {
     width: 70,
     height: 70,
@@ -30,14 +50,6 @@ export const styles = StyleSheet.create({
   fundo: {
     height: "100%",
     width: "100%",
-    resizeMode: "cover",
-    source: "imagem",
-  },
-
-  about: {
-    height: 300,
-    width: 300,
-    borderRadius: 300,
     resizeMode: "cover",
     source: "imagem",
   },
@@ -52,34 +64,8 @@ export const styles = StyleSheet.create({
     alignItems: "center",
   },
 
-  home: {
-    flex: 1,
-    width: "100%",
-    height: "100%",
-    resizeMode: "cover",
-    justifyContent: "center",
-    alignItems: "center",
-    padding: 500,
-  },
-
   // Editar o Text
   text: {
-    textAlign: "center",
-    color: "purple",
-    fontSize: 30,
-    borderStyle: "solid",
-  },
-
-  // Editar o Input E-mail
-  email: {
-    textAlign: "center",
-    color: "purple",
-    fontSize: 30,
-    borderStyle: "solid",
-  },
-
-  // Editar o Input Senha
-  senha: {
     textAlign: "center",
     color: "purple",
     fontSize: 30,
