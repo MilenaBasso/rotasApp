@@ -5,7 +5,7 @@ export default function Imagem({ source }) {
   return (
     <View style={styles.imagem}>
       <Image
-        source={require("../assets/imagens/cadeado.png")}
+        source={require("../assets/imagens/loginimg.jpg")}
         style={styles.imagemlogin}
       />
     </View>
