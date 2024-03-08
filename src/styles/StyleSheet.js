@@ -44,15 +44,15 @@ export const styles = StyleSheet.create({
 
   //
   imagemlogin: {
-    width: 400,
-    height: 400,
+    width: 70,
+    height: 70,
   },
 
   // Editar a Fundo
   fundo: {
     height: "100%",
     width: "100%",
-    resizeMode: "cover",
+    // resizeMode: "cover",
     source: "imagem",
   },
 

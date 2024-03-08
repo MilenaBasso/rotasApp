@@ -14,7 +14,7 @@ export default function About() {
   return (
     <View style={styles.container}>
       <Image source={imagem} resizeMode="cover" style={styles.about}/>
-        <Text><h3> WebSite By Mii </h3></Text>
+        <Text>  WebSite By Mii </Text>
       <Rotas />
     </View>
   );
