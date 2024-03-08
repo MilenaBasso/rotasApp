@@ -21,7 +21,6 @@ export const styles = StyleSheet.create({
     fontSize: 20,
   },
 });
-import { StyleSheet } from "react-native";
 
 export const Styles = StyleSheet.create({
   container: {
@@ -37,7 +36,7 @@ export const Styles = StyleSheet.create({
     resizeMode: "cover",
     source: "imagem",
   },
-  
+
   about: {
     height: 300,
     width: 300,

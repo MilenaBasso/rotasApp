@@ -1,14 +1,14 @@
 import { ImageBackground } from "react-native";
 import { styles } from "../styles/StyleSheet";
-import Imagem from "../components/LoginImage";
-import Text from "../components/LoginText";
-import Input from "../components/LoginInput";
-import Button from "../components/LoginButton";
+import Imagem from "./LoginImage";
+import Text from "./LoginText";
+import Input from "./LoginInput";
+import Button from "./LoginButton";
 
 export default function ImagBack() {
   return (
     <ImageBackground
-      source={require("../assets/imagens/fundo.jpg")}
+      source={require("../assets/images/fundo.jpg")}
       style={styles.fundologin}
     >
       <Imagem />
