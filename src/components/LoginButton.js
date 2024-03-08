@@ -5,7 +5,7 @@ import { TouchableOpacity } from "react-native-web";
 export default function ButtonLogin() {
   return (
     <View style={styles.container}>
-      {/* <TouchableOpacity
+      <TouchableOpacity
         style={style.btn}
         onPress={() => console.log("You pressed the button.")}
       >
@@ -17,15 +17,15 @@ export default function ButtonLogin() {
         onPress={() => console.log("You pressed the button.")}
       >
         <Text>Press Here</Text>
-      </Pressable> */}
+      </Pressable>
 
-      <Button
+      {/* <Button
         title="Efetuar Login"
         onPress={() => {
           alert("Login Efetuado");
         }}
         color="red"
-      />
+      /> */}
     </View>
   );
 }
