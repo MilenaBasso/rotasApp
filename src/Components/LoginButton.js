@@ -1,12 +1,19 @@
-import { View, Button } from "react-native";
-import { styles } from "../styles/Estilos";
+import { View, Button } from 'react-native';
+import { styles } from '../styles/StyleSheet';
+export default function ButtonLogin() {
 
-const Stack = createNativeStackNavigator();
+return (
+<View style={styles.container}>
 
-export default function LoginButton() {
-  return (
-    <View style={styles.container}>
-      <Button title="Sobre" onPress={() => navigation.navigate("Sobre")} />
-    </View>
-  );
+<Button
+     title='Efetuar Login'
+     onPress={() => {
+       alert('Login Efetuado');
+     }}
+     color='red'
+     
+     
+    />
+</View>
+);
 }

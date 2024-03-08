@@ -1,6 +1,10 @@
-import { Text } from "react-native";
-import { styles } from "../styles/Estilos";
+import { Text, View } from 'react-native';
+import { styles } from '../styles/StyleSheet';
+export default function TextLogin() {
 
-export default function LoginText() {
-  return <Text styles={styles.logintext}>Sobre</Text>;
+return (
+<View style={styles.container}>
+<Text style={styles.text}>Fazer Login</Text>
+</View>
+);
 }

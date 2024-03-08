@@ -1,28 +1,11 @@
-import { View, TextInput } from "react-native";
-import { styles } from "../styles/Estilos";
+import { TextInput, View } from 'react-native';
+import { styles } from '../styles/StyleSheet';
+export default function InputLogin() {
 
-export default function LoginInput() {
-  return (
-    <View>
-      {/* Caixa do nome */}
-      <TextInput style={styles.inputname} 
-      placeholder="Nome" 
-      inputMode="text" 
-      />
-
-      {/*Caixa do email*/}
-      <TextInput
-        style={styles.inputname}
-        placeholder="E-mail"
-        inputMode="text"
-      />
-      
-      {/*Caixa da mensagem do usuario*/}
-      <TextInput
-        style={styles.inputname}
-        placeholder="Mensagem"
-        inputMode="text"
-      />
-    </View>
-  );
+return (
+<View style={styles.input}>
+<TextInput placeholder="Digite Seu E-mail" style={styles.email}/>
+<TextInput placeholder="Digite Sua Senha" style={styles.senha} secureTextEntry={true}/>
+</View>
+);
 }
