@@ -24,8 +24,6 @@ export default function ComponentHome() {
           HOMEPAGE
         </Text>
         <Rotas />
-
-
       </ImageBackground>
     </View>
   );

@@ -10,7 +10,7 @@ export const styles = StyleSheet.create({
 
   logintext: {
     color: "black",
-    fontSize: '30',
+    fontSize: "30",
   },
 
   inputname: {
@@ -20,12 +20,9 @@ export const styles = StyleSheet.create({
     width: 230,
     fontSize: 20,
   },
+});
+import { StyleSheet } from "react-native";
 
-});import { StyleSheet } from "react-native";
-
-{
-  /* /EDIÇÃO DOS CAMPOS */
-}
 export const Styles = StyleSheet.create({
   container: {
     justifyContent: "center",
@@ -40,7 +37,7 @@ export const Styles = StyleSheet.create({
     resizeMode: "cover",
     source: "imagem",
   },
- //página about
+  
   about: {
     height: 300,
     width: 300,
@@ -49,23 +46,23 @@ export const Styles = StyleSheet.create({
     source: "imagem",
   },
 
-  // Editar a Imagem
+  // Editar imagem de fundo
   fundologin: {
     flex: 1,
-    width: '100%',
-    height: '100%',
-    resizeMode: 'cover',
-    justifyContent: 'center',
-    alignItems: 'center',
+    width: "100%",
+    height: "100%",
+    resizeMode: "cover",
+    justifyContent: "center",
+    alignItems: "center",
   },
 
   home: {
     flex: 1,
-    width: '100%',
-    height: '100%',
-    resizeMode: 'cover',
-    justifyContent: 'center',
-    alignItems: 'center',
+    width: "100%",
+    height: "100%",
+    resizeMode: "cover",
+    justifyContent: "center",
+    alignItems: "center",
     padding: 500,
   },
 

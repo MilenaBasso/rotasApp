@@ -3,25 +3,21 @@ import { styles } from "../styles/StyleSheet";
 import { useNavigation } from "@react-navigation/native";
 import Rotas from "../components/Rotas";
 export default function ComponentContact() {
-
   const navigation = useNavigation();
-  
+
   return (
     <View>
-      {/* Caixa do nome */}
-      <TextInput style={styles.inputname} 
-      placeholder="Nome" 
-      inputMode="text" 
-      />
+      {/* Caixa  nome */}
+      <TextInput style={styles.inputname} placeholder="Nome" inputMode="text" />
 
-      {/*Caixa do email*/}
+      {/*Caixa de email*/}
       <TextInput
         style={styles.inputname}
         placeholder="E-mail"
         inputMode="text"
       />
-      
-      {/*Caixa da mensagem do usuario*/}
+
+      {/*Caixa de mensagem do usuario*/}
       <TextInput
         style={styles.inputname}
         placeholder="Mensagem"
