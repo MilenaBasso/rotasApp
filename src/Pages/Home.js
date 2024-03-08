@@ -5,7 +5,7 @@ import Rotas from "../components/Rotas";
 
 export default function ComponentHome() {
   const Fundo = {
-    uri: "https://img.freepik.com/fotos-gratis/fundo-preto-abstrato-da-grade-digital_53876-97647.jpg?size=626&ext=jpg&ga=GA1.1.1395880969.1709769600&semt=ais",
+    //no image yet//
   };
 
   const navigation = useNavigation();
@@ -21,7 +21,7 @@ export default function ComponentHome() {
             textAlign: "center",
           }}
         >
-          HOMEPAGE
+          Welcome!!
         </Text>
         <Rotas />
       </ImageBackground>

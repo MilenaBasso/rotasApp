@@ -14,7 +14,7 @@ export default function About() {
   return (
     <View style={styles.container}>
       <Image source={imagem} resizeMode="cover" style={styles.about}/>
-        <Text>Exemplo de página About</Text>
+        <Text>WebSite By </Text>
       <Rotas />
     </View>
   );

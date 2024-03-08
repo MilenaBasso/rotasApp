@@ -14,7 +14,7 @@ export const styles = StyleSheet.create({
   },
 
   inputname: {
-    backgroundColor: "white",
+    backgroundColor: "pink",
     borderColor: "red",
     borderWidth: 2,
     width: 230,
@@ -24,14 +24,6 @@ export const styles = StyleSheet.create({
   imagemlogin: {
     width: 70,
     height: 70,
-  },
-});
-
-export const Styles = StyleSheet.create({
-  container: {
-    justifyContent: "center",
-    alignItems: "center",
-    flex: 1,
   },
 
   // Editar a Fundo
@@ -93,4 +85,5 @@ export const Styles = StyleSheet.create({
     fontSize: 30,
     borderStyle: "solid",
   },
+
 });
