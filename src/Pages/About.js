@@ -8,13 +8,13 @@ export default function About() {
   const navigation = useNavigation();
 
   const imagem = {
-    uri: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRvUP0eZQkYRyfLZ3XfH8nWN-880jbLF8fUZAoAH_b4fg&s",
+    uri: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRvUP0eZQkYRyfLZ3XfH8nWN-880jbLF8fUZAoAH_b4fg&s", //imagem do gato
   };
 
   return (
     <View style={styles.container}>
       <Image source={imagem} resizeMode="cover" style={styles.about}/>
-        <Text>WebSite By </Text>
+        <Text><h3> WebSite By Mii </h3></Text>
       <Rotas />
     </View>
   );

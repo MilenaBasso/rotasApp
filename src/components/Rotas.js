@@ -7,7 +7,7 @@ export default function Rotas() {
   const navigation = useNavigation();
 
   return (
-    <View style={styles.containeButtons}>
+    <View style={styles.container}>
       <View style={styles.rotas}>
         <Button
           title="Home"

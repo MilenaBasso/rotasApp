@@ -36,8 +36,10 @@ export const styles = StyleSheet.create({
     backgroundColor: "pink",
     borderColor: "red",
     borderWidth: 2,
-    width: 230,
+    width: 300,
     fontSize: 20,
+    marginTop: 100,
+    alignItems: 'center',
   },
 
   //
@@ -59,7 +61,6 @@ export const styles = StyleSheet.create({
     flex: 1,
     width: "100%",
     height: "100%",
-    resizeMode: "cover",
     justifyContent: "center",
     alignItems: "center",
   },
@@ -70,5 +71,10 @@ export const styles = StyleSheet.create({
     color: "purple",
     fontSize: 30,
     borderStyle: "solid",
+  },
+
+  //estilizar os botoes na pagina de login
+  rotas: {
+    justifyContent: "center",
   },
 });

@@ -6,9 +6,9 @@ export default function ComponentContact() {
   const navigation = useNavigation();
 
   return (
-    <View>
+    <View style={styles.container}>
       {/* Caixa  nome */}
-      <TextInput style={styles.inputname} placeholder="Nome" inputMode="text" />
+      <TextInput style={styles.inputname} placeholder="Name" inputMode="text" />
 
       {/*Caixa de email*/}
       <TextInput
