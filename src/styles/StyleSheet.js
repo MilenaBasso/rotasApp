@@ -42,8 +42,8 @@ export const styles = StyleSheet.create({
 
   //
   imagemlogin: {
-    width: 70,
-    height: 70,
+    width: 400,
+    height: 400,
   },
 
   // Editar a Fundo
@@ -71,5 +71,4 @@ export const styles = StyleSheet.create({
     fontSize: 30,
     borderStyle: "solid",
   },
-
 });

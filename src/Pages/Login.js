@@ -5,7 +5,6 @@ import Rotas from "../components/Rotas";
 import Imagem from "../components/LoginImage";
 import InputLogin from "../components/LoginInput";
 import ButtonLogin from "../components/LoginButton";
-import TextLogin from "../components/LoginText";
 
 export default function Login() {
   return (
@@ -14,7 +13,6 @@ export default function Login() {
         <Imagem />
         <InputLogin />
         <ButtonLogin />
-        <TextLogin />
       </ImagBack>
       <Rotas />
     </View>
