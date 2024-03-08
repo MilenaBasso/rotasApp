@@ -1,10 +1,33 @@
-import { View } from "react-native";
-import LoginInput from "../Components/LoginInput";
+import { View, TextInput } from "react-native";
+import { styles } from "../styles/StyleSheet";
+import { useNavigation } from "@react-navigation/native";
+import Rotas from "../components/Rotas";
+export default function ComponentContact() {
 
-export default function Contact() {
+  const navigation = useNavigation();
+  
   return (
     <View>
-      <LoginInput />
+      {/* Caixa do nome */}
+      <TextInput style={styles.inputname} 
+      placeholder="Nome" 
+      inputMode="text" 
+      />
+
+      {/*Caixa do email*/}
+      <TextInput
+        style={styles.inputname}
+        placeholder="E-mail"
+        inputMode="text"
+      />
+      
+      {/*Caixa da mensagem do usuario*/}
+      <TextInput
+        style={styles.inputname}
+        placeholder="Mensagem"
+        inputMode="text"
+      />
+      <Rotas />
     </View>
   );
 }
